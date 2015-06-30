@@ -10,7 +10,7 @@ INSTALL_DIR_TRAINING_DATA=$BUILD_DIR/vendor/
 TESSERACT_OCR_DIR=${HOME}/vendor/tesseract-ocr
 ENVSCRIPT=$BUILD_DIR/.profile.d/tesseract-ocr.sh
 
-TESSERACT_OCR_LANGUAGES=swe,nld,deu,nor,fra,spa,rus,fin
+TESSERACT_OCR_LANGUAGES=ukr,tur,tha,tgl,tel,tam,swe,swa,srp,sgi,spa_old,spa,slv,slk,ron,por,pol,nor,nld,msa,mlt,mkd,mal,lit,lav,kor,kan,ita_old,ita,isl,ind,chr,hun,hrv,hin,heb,glg,frm,frk,fra,fin,eus,est,equ,epo,enm,ell,deu,dan,ces,cat,bul,ben,bel,aze,ara,afr,jpn,chi_sim,chi_tra,rus,vie
 
 echo "Getting Tesseract-ocr Binaries from $TESSERACT_OCR_REMOTE..."
 mkdir -p $INSTALL_DIR
